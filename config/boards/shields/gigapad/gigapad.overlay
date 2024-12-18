@@ -11,7 +11,9 @@
             <&xiao_d 0 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>,
             <&xiao_d 3 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>,
             <&xiao_d 4 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>,
-            <&xiao_d 5 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
+            <&xiao_d 5 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>,
+            <&xiao_d 6 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>,
+            <&xiao_d 7 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
     };
 
     left_encoder: encoder_left {
